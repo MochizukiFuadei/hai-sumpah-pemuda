@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: ComicSansMS;
-    src: url('');
+    src: url('../font/comic_book/Comic Sans MS.ttf');
 }
 @font-face {
     font-family: gotham;
@@ -37,140 +37,32 @@ p{
 body{
     margin:0;
     padding:0;
-    font-family: gotham;
-    font-size:2.3vh;
+    font-family: ComicSansMS;
+    font-size: 18px;
     position: relative;
-}
-.intro{
-    font-weight: bold;
 }
 .posrel{
     position: relative;
 }
-.padding-top-50{
-    padding-top:50px;
-}
 
 @media only screen and (min-width: 481px) {
-    .title-sec{
-        font-size: 10vh;
-        line-height:1em;
-    }
-    .hp{
-        width:48%;
-        padding:1%;
-        float:left;
-        position: relative;
-    }
-    .socmed{
-        width:33.33333%;
-        height:300px;
-        padding:1%;
-        float:left;
-        position: relative;
-    }
-    .instagram{
-        position: absolute;
-        left:0;
-    }
-    .facebook{
-        position: absolute;
-        right:0;
-        top:33%;
-    }
-    .twitter{
-        position: absolute;
-        left:0;
-        top:66%;
-    }
-    .comment{
-        position: absolute;
-        top:0;
-        left:17%;
-        height:60%;
-        width:47%;
-        margin-left:auto;
-        margin-right:auto;
-        margin-top:20%;
-        overflow: scroll;
-    }
-    .awan-3{
-        width:300px;
-    }
-    .main-bola{
-        right:0;
-        width:50%;
-        margin-top:-28%;
-        position: absolute;
-    }
-    .sub-title-3{
-        float:left;
-        font-family: Comicbook;
-        padding-top:5%;
-    }
-    .sub-title-sec{
-        font-size: 6vh;
-        line-height:1em;
-    }
-    .sub-title-4{
-        font-size:6vh;
-        font-family: ComicBook;
-    }
-    .garis-tanah{
-        margin-top:-1.6%;
-    }
-    .atlet-name{
-        text-align: center;
-        color:#c20e1a;
-    }
-    .defia-img{
-        width:100%;
-    }
-    .ceyco-img{
-        width:100%;
-    }
-    .dilla-img{
-        width:100%;
-    }
-    .defia-statement{
-        text-align:center;
-    }
-    .ceyco-statement{
-        text-align:center;
-    }
-    .dilla-statement{
-        text-align:center;
-    }
-    .defia{
-        width:47%;
-        float:left;
-        margin-right:-10%;
-    }
-    .ceyco{
-        width:25%;
-        float:left;
-    }
-    .dilla{
-        width:47%;
-        float:right;
-        margin-left:-10%;
-    }
+	.sec-1{
+	
+	}
+	.buble-sec-1{
+		
+	}
+	.title-sec-1{
+		
+	}
+	.hai-sec-1{
+		
+	}
     .numba{
-        font-family: kings;
-        font-size:15vh;
-        color:#c20e1a;
+        font-family: ComicBook;
+        font-size:9vh;
         margin-top:0;
         padding-top:0;
-    }
-    .semangat{
-        font-family: kings;
-        font-size:7vh;
-        color:#c20e1a;
-        margin-top:-25vh;
-    }
-    .pre-2{
-        margin-top:-90px;
-        text-align: center;
     }
     .disp-vid{
         top:10%;
@@ -179,8 +71,8 @@ body{
 		padding-top: 5%;
     }
     .disp-vid iframe{
-        width: 60%;
-        height:600px;
+        width: 50%;
+        height: 500px;
     }
     .disp-vid-2{
         top:10%;
@@ -189,72 +81,15 @@ body{
 		padding-top: 5%;
     }
     .disp-vid-2 iframe{
-        width: 80%;
-        height:600px;
+        width: 70%;
+        height: 400px;
+		margin-top: 5%;
+		margin-bottom: 5%;
     }
-    .klik_kiri_4{
-        position: absolute;
-        top:20%;
-        left:10%;
-    }
-    .klik_kanan_4{
-        position: absolute;
-        top:40%;
-        right:8%;
-    }
+    
 }
 @media only screen and (max-width: 480px) {
-    .title-sec{
-        font-size: 7vh;
-        line-height:1em;
-    }
-    .hp{
-        width:73%;
-        padding:1%;
-        float:left;
-        position: relative;
-    }
-    .socmed{
-        width:23%;
-        height:300px;
-        padding:1%;
-        float:right;
-        position: relative;
-    }
-    .instagram{
-        position: absolute;
-        left:0;
-    }
-    .facebook{
-        position: absolute;
-        right:0;
-        top:25%;
-    }
-    .twitter{
-        position: absolute;
-        left:0;
-        top:50%;
-    }
-    .comment{
-        position: absolute;
-        top:0;
-        left:17%;
-        height:60%;
-        width:70%;
-        margin-left:auto;
-        margin-right:auto;
-        margin-top:20%;
-        overflow: scroll;
-    }
-    .awan-3{
-        width:30%;
-    }
-    .main-bola{
-        margin-left:auto;
-        margin-right:auto;
-        width:75%;
-        margin-top:-28%;
-    }
+
     .sub-title-3{
         width:100%;
         font-family: Comicbook;
@@ -268,124 +103,6 @@ body{
         font-family: ComicBook;
         color:#c20e1a;
     }
-    .garis-tanah{
-        margin-top:-6%;
-    }
-    .atlet-name{
-        text-align: center;
-        color:#c20e1a;
-        font-size:1.5vh;
-    }
-    .defia-img{
-        width:80%;
-    }
-    .ceyco-img{
-        width:50%;
-        margin-left:17%;
-    }
-    .dilla-img{
-        width:80%;
-    }
-    .defia-judul{
-        position: absolute;
-        left:25%;
-        top:23%;
-    }
-    .ceyco-judul{
-        position: absolute;
-        right:10%;
-        top:50%;
-    }
-    .dilla-judul{
-        position: absolute;
-        left:10%;
-        top:30%;
-    }
-    .defia-statement{
-        text-align: right;
-    }
-    .defia-statement img{
-        width:30%;
-        margin-top:-10%;
-        margin-right:10%;
-    }
-    .ceyco-statement{
-        text-align: left;
-    }
-    .ceyco-statement img{
-        width:30%;
-        margin-top:-30%;
-        margin-left:10%;
-    }
-    .dilla-statement{
-        text-align: right;
-    }
-    .dilla-statement img{
-        width:30%;
-        margin-top:-30%;
-        margin-right:10%;
-    }
-    .defia{
-        width:100%;
-        text-align:right;
-    }
-    .ceyco{
-        width:100%;
-        margin-top:-30%;
-    }
-    .dilla{
-        width:100%;
-        text-align:right;
-        margin-top:-20%;
-    }
-    .box-prof{
-        width:100%;
-        margin-bottom:5%;
-    }
-    .box-prof-img{
-        width:29.333333333%;
-        padding:2%;
-        float:left;
-    }
-    .box-prof-foot{
-        color:#c20e1a;
-        width:61.66666667%;
-        margin-top:5%;
-        padding:1%;
-        float:left;
-    }
-    .statuses{
-        font-size:3vh;
-        font-weight: bold;
-    }
-    .numba{
-        font-family: kings;
-        font-size:10vh;
-        color:#c20e1a;
-        margin-top:0;
-        padding-top:0;
-    }
-    .semangat{
-        font-family: kings;
-        font-size:3vh;
-        color:#c20e1a;
-        margin-top:-15%;
-    }
-    .papan{
-        width:75%;
-    }
-    .awan-4{
-        width:30%;
-    }
-    .img-hai{
-			position: absolute;
-			margin-top: -35%;
-			margin-left: 20%;
-    }
-    .pre-2{
-        margin-top:-50px;
-        text-align: center;
-    }
     .disp-vid{
         position: absolute;
         top:10%;
@@ -398,61 +115,52 @@ body{
         height:130px;
     }
     .disp-vid-2{
-        position: absolute;
+		position: absolute;
         top:10%;
-        left:25%;
+        left:10%;
         right:auto;
-        width:50%;
+        width:100%;
     }
     .disp-vid-2 iframe{
-        width:100%;
-        height:140px;
+		width:80%;
+        height:130px;
     }
-    .kanan-mobile-3{
-        position: absolute;
-        width:50px;
-        top:30%;
-        right:0;
-    }
-    .klik_kiri_4{
-        position: absolute;
-        top:20%;
-        left:10%;
-        width:50px;
-    }
-    .klik_kanan_4{
-        position: absolute;
-        top:60%;
-        right:8%;
-        width:50px;
-    }
+    
 }
+
 .sec-1{
+	padding-top: 2%;
+  	background-size: cover;
 	background-image: url("../images/BAGIAN 1/1_judul_ground.png");
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 .buble-sec-1{
-	width: 100%;
-	height: auto;
-	padding-top: 5%;
 	position: relative;
+	margin-top: 0px;
+	width: 100%;
 }
 .title-sec-1{
 	position: absolute;
-	margin-top: -35%;
-	margin-left: 20%;
-	margin-bottom: 0px;
+	margin-top: 20%;
+	margin-left: -50%;
+	margin-right: 0%;
+	width: 40%;
 }
-
+.hai-sec-1{
+	position: absolute;
+	margin-top: -12%;
+	margin-left: 72%;
+	margin-right: 0px;
+	width: 10%;
+}
 .sec-2{
     background-image: url("../images/background kertas-01-01.jpg");
 }
-.title-2{
+.title-sec-2{
     margin-top: 5%;
 	margin-bottom: 5%;
 	font-size: 45px;
     font-family: ComicBook;
+	width: 100%;
 }
 .bg-orange-sec2{
 	background-image: url('../images/BAGIAN 1/1_krisbudiman_oren.png');
@@ -465,167 +173,118 @@ body{
 	background-image: url('../images/BAGIAN 1/1_kotakkomik_biru.png');
 	position: relative;
 	background-size: cover;
-}
-.bg-kuning-sec3{
-	background-image: url('../images/BAGIAN 3/3_kotakkomik_kuning.png');
-	position: relative;
-	background-size: cover;
-	height: 400px;
 	width: 100%;
+	height: 100%;
 }
-.sec-5{
-    background-image: url("../images/BAGIAN 5/5_credit_ground.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-    font-family:gotham;
-}
-.bth{
-    color:#FFF;
-    text-decoration: none;
-    font-family: kings;
-    font-size: 5vh;
-    line-height: 1.25em;
-}
-.bth-home{
-    font-size:9vh!important;
+.isibiru-sec2 {
+	position: absolute;
+	margin-top: -30%;
 }
 .sec-3{
-    background:#f5cfb1;
+	background-image: url('../images/background kertas coklat-01.jpg');
+	margin-top: 0%;
 }
-.sec-3-1{
-	background-image: url("../images/background kertas-01-01.jpg");
-}
-.title-3{
+.title-sec-3{
 	font-size: 64px;
     padding-top:50px;
     padding-bottom:20px;
     font-family: ComicBook;
 }
-.mading{
-    right:0;
-    left:0;
-    width:100%;
+.bg-buku-sec3{
+	background-image: url('../images/BAGIAN 3/3_judul_ground_test.png');
+	background-size: cover;
+	height: 768px;
+	margin-top: 5%;
+	margin-bottom: 0%;
+	width: 100%;
 }
-.isi-mading{
-    width: 97%;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:13%;
-    top:0;
-    position: absolute;
-    padding:0 7%;
+.mata1-buku-sec3{
+	margin-left: 25%;
+	margin-top: 10%;
+	
 }
-.title-mading{
-    color: #c20e1a; 
-    padding-bottom:0;
-    font-family: bebas;
-    font-size:7vh;
-    text-align: center;
+.mata2-buku-sec3{
+	margin-left: 33%;
+	margin-top: 10%;
+	
 }
-.body-mading{
-    padding:0;
+.sec-3-1{
+	background-image: url("../images/background kertas-01-01.jpg");
 }
-.box{
-    width:20%;
-    float:left;
-    font-family: gotham;
-    color: #c20e1a; 
-    text-align: center;
-}
-.box img{
-    padding:0 10%;
-}
-.box-atlet{
+.title-sec-3-1{
+	font-size: 64px;
+    padding-top:50px;
+    padding-bottom:20px;
     font-family: ComicBook;
 }
-.klik_kiri_3{
-    margin-top:30%;
+.bg-kuning-sec3{
+	background-image: url("../images/BAGIAN 3/3_kotakkomik_kuning.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 3%;
+	margin-bottom: 3%;
 }
-.klik_kanan_3{
-    margin-top:30%;
-}
-.wow_3{
-    position: absolute;
-    left:10%;
-    top:10%;
-}
-.kece_3{
-    position: absolute;
-    right:10%;
-    top:10%;
-}
-.mantul_3{
-    position: absolute;
-    left:38%;
-    top:35%;
-}
-.keren_3{
-    position: absolute;
-    right:15%;
-    bottom:10%;
+.bg-kuning-isi-sec3{
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 .sec-4{
-    padding-bottom:20px;
+	background-image: url('../images/background kertas coklat-01.jpg');
+	margin-top: 0%;
+	padding-bottom:20px;
+}
+.title-sec-4{
+	font-size: 64px;
+    font-family: ComicBook;
+}
+.bg-budiman-sec4{
+	background-image: url('../images/BAGIAN 4/4_krisbudiman_kotak.png');
+	background-size: cover;
+	height: 373px;
+	width: 100%;
+}
+.budi-comment-sec4{
+	margin-top: 0%;
+	margin-left: 35%;
+	widows: 100%;
+}
+.bg-dora-sec4{
+	background-image: url('../images/BAGIAN 4/4_doraamalia_kotak.png');
+	background-size: cover;
+	margin-left: -50%;
+	height: 373px;
+	width: 100%;
+}
+.dora-comment-sec4{
+	margin-top: -10%;
+	margin-left: 45%;
+	widows: 100%;
+}
+.sec-5{
+    background-image: url("../images/BAGIAN 5/5_credit_ground.png");
+	background-size: cover;
+	width: 100%;
+	padding: 0px;
 }
 
 .title-4{
+	background-size: cover;
+	width: 100%;
+	padding-top: 2%;
+	padding-bottom: 2%;
 	background-image: url('../images/BAGIAN 4/4_judul_ground.png');
+	margin-bottom: 5%;
 }
-.profile{
-    position: relative;
-}
-.topi_wisuda_4_1{
-    position: absolute;
-    top:0;
-    left:35%;
-    -ms-transform: rotate(-45deg); /* IE 9 */
-    -webkit-transform: rotate(-45deg); /* Safari 3-8 */
-    transform: rotate(-45deg);
-}
-.topi_wisuda_4_2{
-    position: absolute;
-    top:0;
-    right:30%;
-}
-.name-defia{
-    margin-top:60px;
-}
-.name-dilla{
-    margin-top:140px;
+.jagakata-sec-4{
+	position: absolute;
+	margin-top: 12%;
+	margin-left: -45%;
+	width: 30%;
 }
 .body-sub-4{
 	
 }
-.title-univ{
-    color:#c20e1a;
-    text-align:center;
-    font-family: ComicBook;
-}
-.dialog-body-1{
-    margin-left:37px;
-    border:#c20e1a 3px solid;
-    background: #f0f0f0;
-    border-radius:5px;
-    padding:30px;
-}
-.dialog-body-2{
-    margin-top:30px;
-    margin-right:50px;
-    border:#c20e1a 3px solid;
-    background: #f0f0f0;
-    border-radius:5px;
-    padding:30px;
-}
-.topi_wisuda_4_4{
-    -ms-transform: rotate(-45deg); /* IE 9 */
-    -webkit-transform: rotate(-45deg); /* Safari 3-8 */
-    transform: rotate(-45deg);
-    margin-left:50px;
-}
-.dialog-profile{
-    font-family: ComicBook;
-}
+
 .title-bro{
     font-family: ComicBook;
     font-size:3.5vh;
@@ -633,10 +292,4 @@ body{
 .body-bro{
     margin-top:20px;
     margin-bottom:20px;
-}
-.podium-bro{
-    width:100%;
-}
-.lbl-foot{
-    font-family: ComicBook;
 }
