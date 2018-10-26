@@ -53,7 +53,10 @@ body{
 		
 	}
 	.title-sec-1{
-		
+		position:absolute;
+		top:35%;
+		left:30%;
+		width:65%;
 	}
 	.hai-sec-1{
 		
@@ -134,16 +137,8 @@ body{
 	background-image: url("../images/BAGIAN 1/1_judul_ground.png");
 }
 .buble-sec-1{
-	position: relative;
 	margin-top: 0px;
 	width: 100%;
-}
-.title-sec-1{
-	position: absolute;
-	margin-top: 20%;
-	margin-left: -50%;
-	margin-right: 0%;
-	width: 40%;
 }
 .hai-sec-1{
 	position: absolute;
