@@ -223,6 +223,13 @@ body{
 		top:7%;
 		left:18%;
 	}
+	.popup-head-title4{
+		position: absolute;
+		font-family:badabom;
+		font-size:15vh;
+		bottom:0;
+		left:18%;
+	}
 	.popup-body{
 		width:80%;
 		margin-left:auto;
@@ -415,6 +422,13 @@ body{
 		top:7%;
 		left:18%;
 	}
+	.popup-head-title4{
+		position: absolute;
+		font-family:badabom;
+		font-size:5vh;
+		bottom:0;
+		left:18%;
+	}
 	.popup-body{
 		width:90%;
 		margin-left:auto;
@@ -490,7 +504,7 @@ body{
 .modal { max-width: 85% !important ; max-height: 85% !important ; width:95% !important; height: 95% !important; }
 .popup{
 	background:url('../images/background_kertas_putih.jpg') bottom left;
-	background-size:100%;
+	background-size:cover;
 }
 .popup-emp{
 	font-family:ComicBook;
@@ -499,6 +513,9 @@ body{
 }
 .popup-item p{
 	margin-top:1px;
+}
+.popup-item{
+	margin-bottom:10px;
 }
 .popup-logos{
 	width:150px;
