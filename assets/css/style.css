@@ -89,9 +89,23 @@ body{
 		margin-bottom: 5%;
     }
 	.isibiru-sec2 {
-		position: absolute;
+		position:absolute;
 		margin-top: -30%;
-		font-size: 2vh;
+		font-size: 0.9em;
+		z-index:1;
+	}
+	.pakkris{
+		position:absolute;
+		right:5%;
+		bottom:-5%;
+	}
+	.yxgk{
+	}
+	.bg-biru-sec2{
+		background-image: url('../images/1/1_kotakkomik_biru.png');
+		background-size: 100%;
+		height:100%;
+		width: 100%;
 	}
 	.title-sec-3{
 		font-size: 3em;
@@ -134,43 +148,73 @@ body{
         padding-top:0;
     }
 	.bg-budiman-sec4{
-		background-image: url('../images/4/4_krisbudiman_kotak.png');
-		background-size: cover;
-		height: 373px;
-		width: 100%;
-	}
-	.budi-comment-sec4{
-		margin-top: 0%;
-		margin-left: 35%;
-		width: 100%;
+		width: 40%;
+		position:relative;
+		float:left;
+		margin-left:7%;
 	}
 	.bg-dora-sec4{
-		background-image: url('../images/4/4_doraamalia_kotak.png');
-		background-size: cover;
-		margin-left: -50%;
-		height: 373px;
-		width: 100%;
+		width: 40%;
+		position:relative;
+		float:left;
+		margin-left:-5%;
+	}
+	.budi-comment-sec4{
+		position: absolute;
+		top:-10%;
+		right:-5%;
+		z-index: 100;
+
 	}
 	.dora-comment-sec4{
-		margin-top: -10%;
-		margin-left: 45%;
+		position: absolute;
+		top:-22%;
+		right:-15%;
+	}
+	.jagakata-sec-4{
+		position: absolute;
+		top: 30%;
+		left: 20%;
+		max-width:60%;
+	}
+	.sec-5{
+		background-image: url("../images/5/5_credit_ground.png");
+		background-size: cover;
 		width: 100%;
+		height:400px;
+	}
+	.reporter{
+		position:absolute;
+		top:8%;
+		left:5%;
+	}
+	.logo-foot{
+		position:absolute;
+		top:8%;
+		left:36%;
+	}
+	.designer{
+		position:absolute;
+		top:5%;
+		right:4%;
 	}
 }
 @media only screen and (max-width: 480px) {
 	.sec-1{
 		padding-top: 2%;
-		background-size: cover;
+		background-size: 100%;
 		background-image: url("../images/1/1_judul_ground_mobile.png");
+		height:460px;
 	}
 	.buble-sec-1{
-		margin-top: 0px;
+		position:absolute;
+		margin-top: 40%;
 		width: 100%;
 	}
 	.title-sec-1{
 		position:absolute;
-		top:40%;
-		left:30%;
+		margin-top:70%;
+		left:25%;
 		width:65%;
 	}
 	.hai-sec-1{
@@ -256,28 +300,57 @@ body{
         margin-top:0;
         padding-top:0;
     }
-	.bg-budiman-sec4{
-		background-image: url('../images/4/4_krisbudiman_kotak.png');
-		background-size: cover;
-		height: 50px;
-		width: 50%;
+	.sec-5{
+		background-image: url("../images/5/1_bagianbawah_credit.png");
+		background-size: 100%;
+		width: 100%;
+		height:260px;
 	}
-	.budi-comment-sec4{
-		margin-top: 0%;
-		margin-left: 35%;
-		width: 50%;
+	.reporter{
+		position:absolute;
+		bottom:5%;
+		left:5%;
+		width:35%;
+	}
+	.logo-foot{
+		position:absolute;
+		top:1%;
+		left:36%;
+		width:35%;
+	}
+	.designer{
+		position:absolute;
+		bottom:5%;
+		right:4%;
+		width:35%;
+	}
+	.jagakata-sec-4{
+		position: absolute;
+		top: 30%;
+		left: 20%;
+		width:60%;
+	}
+	.bg-budiman-sec4{
+		width: 90%;
+		position:relative;
 	}
 	.bg-dora-sec4{
-		background-image: url('../images/4/4_doraamalia_kotak.png');
-		background-size: cover;
-		margin-left: -50%;
-		height: 50px;
-		width: 50%;
+		width: 90%;
+		position:relative;
+	}
+	.budi-comment-sec4{
+		position: absolute;
+		top:-15%;
+		right:-5%;
+		z-index: 100;
+		width:65%;
+
 	}
 	.dora-comment-sec4{
-		margin-top: -10%;
-		margin-left: 45%;
-		width: 50%;
+		position: absolute;
+		top:-22%;
+		right:-15%;
+		width:70%;
 	}
 }
 
@@ -286,13 +359,6 @@ body{
     background-image: url("../images/background kertas-01-01.jpg");
 }
 
-.bg-biru-sec2{
-	background-image: url('../images/1/1_kotakkomik_biru.png');
-	position: relative;
-	background-size: cover;
-	width: 100%;
-	height: 100%;
-}
 
 .sec-3{
 	background-image: url('../images/background kertas coklat-01.jpg');
@@ -320,12 +386,6 @@ body{
 	padding-bottom:20px;
 }
 
-.sec-5{
-    background-image: url("../images/5/5_credit_ground.png");
-	background-size: cover;
-	width: 100%;
-	padding: 0px;
-}
 
 .title-4{
 	background-size: cover;
@@ -333,13 +393,9 @@ body{
 	padding-top: 2%;
 	padding-bottom: 2%;
 	background-image: url('../images/4/4_judul_ground.png');
+	background-repeat: no-repeat;
+	background-position:right;
 	margin-bottom: 5%;
-}
-.jagakata-sec-4{
-	position: absolute;
-	margin-top: 12%;
-	margin-left: -45%;
-	width: 30%;
 }
 .body-sub-4{
 	
@@ -353,3 +409,4 @@ body{
     margin-top:20px;
     margin-bottom:20px;
 }
+.modal { max-width: 85% !important ; max-height: 85% !important ; width:95% !important; height: 95% !important; }
